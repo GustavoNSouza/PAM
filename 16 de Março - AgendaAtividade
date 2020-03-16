@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.manager.a003_agendaatividade.AgendaAtividade"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_agenda_atividade">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle" >
+
+        <solid android:color="#FFFFFF" />
+
+        <stroke
+            android:width="1px"
+            android:color="#000" />
+
+    </shape>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF3C3C"
+        android:gravity="center"
+        android:text="AGENDA - 16/03"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="HORA"
+            android:background="#FF713C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="ATIVIDADE"
+            android:background="#FF713C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="7:30"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="Início das Aulas"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="8:00"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="Aula de Geografia"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="8:30"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="1º Aula de PAM"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="9:00"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="2º Aula de PAM"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="9:30"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="Início do Intervalo"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="10:00"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="Fim do Intervalo"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="10:30"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="Aula de Matemática"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="11:00"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="1º Aula de Química"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="11:00"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="2º Aula de Química"
+            android:background="#FF9E3C"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
